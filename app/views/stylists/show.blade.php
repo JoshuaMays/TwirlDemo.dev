@@ -1,0 +1,1 @@
+/vagrant/sites/twirl.dev/app/views/stylists/show.blade.php
