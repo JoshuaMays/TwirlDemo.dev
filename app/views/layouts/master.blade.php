@@ -21,11 +21,18 @@
       <script src="assets/js/html5shiv.js"></script>
       <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+    @yield('top-script')
 </head>
 <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
     @yield('video')
     <div class="wrapper">
-        @include('partials.navbar')
+        <div class="signWrap">
+            <img src="/img/sign.png">
+            <svg width="100%" height="auto" version="1.1" id="svgTwirl" xmlns="http://www.w3.org/2000/svg">
+                <text class="path" xml:space="preserve" text-anchor="middle" font-family="Dancing Script" font-size="155" id="svg_1" y="215" x="48%" stroke-width="8" stroke="#8DD6F2" fill="#8DD6F2">twirl</text>
+            </svg>
+            <p class="menuBar">MENU</p>
+        </div>
         @yield('content')
     </div>
 
@@ -51,5 +58,6 @@
     <script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="/js/smoothscroll.js"></script>
     <script type="text/javascript" src="/js/jquery-func.js"></script>
+    @yield('bottom-script')
 </body>
 </html>

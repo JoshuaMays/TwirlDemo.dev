@@ -9,8 +9,7 @@
 		"cartalyst/sentry": "2.1.*"
 	},
     "require-dev": {
-        "way/generators": "~2.6",
-        "barryvdh/laravel-debugbar": "~1.7"
+        "way/generators": "~2.6"
     },
 	"autoload": {
 		"classmap": [

@@ -2,6 +2,10 @@ body {
     color: #FFF;
 }
 
+a img {
+    background-color: transparent;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -47,5 +51,106 @@ i:hover {
 }
 
 #headerwrap p {
-    color: #8cd7f2;
+    color: #FFF;
+}
+
+#scoutGuide {
+    max-width: 100%;
+    width: 100%;
+    display:block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    height: 180px;
+    padding-top: 0px;
+}
+
+.navbar-default {
+    background-color: #EADDCD;
+}
+
+.smoothscroll {
+    padding-top:30px;
+}
+
+#footer {
+    background-color: #FFF;
+}
+
+#footer h4 {
+    color: #000;
+}
+
+#footer li {
+    color: #000;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.modal-body {
+    background-color: #FFF;
+}
+
+#headerwrap {
+    /*background-image: url(../img/scoutguide2.png);*/
+}
+
+.signWrap img {
+    margin-top: 10px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+}
+
+figure {
+    color: #000;
+}
+
+figure img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#svgTwirl {
+    position: absolute;
+    top: 10px;
+}
+
+.menuBar {
+    background-color: #000;
+    color: #FFF;
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s linear alternate infinite;
+ -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+    fill-opacity: 0;
+  }
+  to {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+   .collapsed {
+       display: block;
+   }
 }

@@ -9,9 +9,9 @@ class StylistsController extends \BaseController {
 	 */
 	public function index()
 	{
-		$stylists = Stylist::all();
+		// $stylists = Stylist::all();
 
-		return View::make('stylists.index', compact('stylists'));
+		return View::make('stylists.index');
 	}
 
 	/**
